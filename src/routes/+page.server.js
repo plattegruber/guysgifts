@@ -9,17 +9,16 @@ export const config = {
 	}
 };
 
+const client = createClient({
+	projectId: env.SANITY_PROJECT_ID,
+	dataset: env.SANITY_DATASET,
+	useCdn: false,
+	apiVersion: '2023-12-04'
+});
+
 /** @type {import('./$types').PageServerLoad} */
 export async function load({ params }) {
-	console.log(env);
-	const client = createClient({
-		projectId: env.SANITY_PROJECT_ID,
-		dataset: env.SANITY_DATASET,
-		useCdn: false,
-		apiVersion: '2023-12-04'
-	});
-	const products = await client.fetch('*[_type == "product"]');
 	return {
-		products: products
+		products: await client.fetch('*[_type == "product"]')
 	};
 }
