@@ -3,6 +3,6 @@
 	export let data;
 </script>
 
-{ #each data.products as product }
-<p>{product.name}</p>
+{#each data.products as product}
+	<p>{product.name}</p>
 {/each}
