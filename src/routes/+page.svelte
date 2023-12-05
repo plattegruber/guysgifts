@@ -3,4 +3,6 @@
 	export let data;
 </script>
 
-<h1>{data.post.title}</h1>
+{ #each data.products as product }
+<p>{product.name}</p>
+{/each}
