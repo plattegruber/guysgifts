@@ -22,7 +22,7 @@
 				<span class="sr-only">Guys Gifts</span>
 				<img
 					class="h-8 w-auto"
-					src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+					src="logo.png"
 					alt=""
 				/>
 			</a>
@@ -70,7 +70,7 @@
 						<span class="sr-only">Guys Gifts</span>
 						<img
 							class="h-8 w-auto"
-							src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+							src="logo.png"
 							alt=""
 						/>
 					</a>
