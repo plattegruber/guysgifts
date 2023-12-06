@@ -19,6 +19,8 @@ const client = createClient({
 /** @type {import('./$types').PageServerLoad} */
 export async function load({ params }) {
 	return {
-		products: await client.fetch('*[_type == "product"]')
+		products: await client.fetch(
+			'*[_type == "product"]{name, description, url, tags, "imageUrl": image.asset->url}'
+		)
 	};
 }
