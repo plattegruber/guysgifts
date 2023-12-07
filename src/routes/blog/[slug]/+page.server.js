@@ -21,7 +21,9 @@ export async function load({ params }) {
 	return {
 		post: await client.fetch(
 			`
-            *[_type == "post" && slug.current == "` + params.slug + `"][0] {
+            *[_type == "post" && slug.current == "` +
+				params.slug +
+				`"][0] {
 				slug, 
 				title, 
 				body, 
