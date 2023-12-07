@@ -3,11 +3,13 @@
 	import Nav from './Nav.svelte';
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
+	import { page } from "$app/stores";
 
 	inject({ mode: dev ? 'development' : 'production' });
 </script>
 
 <Nav></Nav>
+{#if !$page.route.id?.includes('blog') ?? false}
 <div class="bg-slate-900">
 	<div class="overflow-hidden pt-32 sm:pt-14">
 		<div class="bg-slate-800">
@@ -102,6 +104,7 @@
 		</div>
 	</div>
 </div>
+{/if}
 <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 bg-slate-100 pt-16" id="gift-ideas">
 	<slot />
 </div>
