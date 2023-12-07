@@ -19,7 +19,7 @@
     </svg>
     <div class="lg:flex lg:items-center lg:gap-x-10">
         <div class="sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
-            <img src={data.post.mainImageUrl} alt="" class="mx-auto w-[30.875rem] max-w-full" />  
+            <img src={data.post.mainImageUrl + '?w=900'} alt="" class="mx-auto w-[30.875rem] max-w-full" />  
       </div>
       <div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
         

@@ -48,7 +48,7 @@
 								<div class="flex-shrink-0">
 									<img
 										class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-										src="/images/pexels-ekaterina-bolovtsova-6690467-min.jpg"
+										src="/images/pexels-ekaterina-bolovtsova-6690467-min.jpg?w=400"
 										alt=""
 									/>
 								</div>
@@ -56,7 +56,7 @@
 								<div class="mt-6 flex-shrink-0 sm:mt-0">
 									<img
 										class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-										src="/images/pexels-rdne-stock-project-6519139-min.jpg"
+										src="/images/pexels-rdne-stock-project-6519139-min.jpg?w=400"
 										alt=""
 									/>
 								</div>
@@ -67,7 +67,7 @@
 								<div class="flex-shrink-0">
 									<img
 										class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-										src="/images/pexels-andrea-piacquadio-3760044-min.jpg"
+										src="/images/pexels-andrea-piacquadio-3760044-min.jpg?w=400"
 										alt=""
 									/>
 								</div>
@@ -75,7 +75,7 @@
 								<div class="mt-6 flex-shrink-0 sm:mt-0">
 									<img
 										class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-										src="/images/pexels-tima-miroshnichenko-5591207-min.jpg"
+										src="/images/pexels-tima-miroshnichenko-5591207-min.jpg?w=400"
 										alt=""
 									/>
 								</div>
@@ -84,7 +84,7 @@
 								<div class="flex-shrink-0">
 									<img
 										class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-										src="/images/pexels-shvets-production-8933576-min.jpg"
+										src="/images/pexels-shvets-production-8933576-min.jpg?w=400"
 										alt=""
 									/>
 								</div>
@@ -92,7 +92,7 @@
 								<div class="mt-6 flex-shrink-0 sm:mt-0">
 									<img
 										class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-										src="/images/pexels-cottonbro-studio-6832989-min.jpg"
+										src="/images/pexels-cottonbro-studio-6832989-min.jpg?w=400"
 										alt=""
 									/>
 								</div>
