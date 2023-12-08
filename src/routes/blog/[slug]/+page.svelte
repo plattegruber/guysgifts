@@ -57,6 +57,6 @@
 		</div>
 	</div>
 </div>
-<article class="prose lg:prose-xl mt-16">
+<article class="prose lg:prose-xl mt-16 mx-auto">
 	<PortableText value={data.post.body} components={{}} />
 </article>
