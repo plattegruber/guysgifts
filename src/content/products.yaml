@@ -1,0 +1,52 @@
+products:
+  - name: "Nike Peak - Tall Cuff Futura Beanie"
+    description: "A classic, easy-to-wear beanie in a variety of colors."
+    url: "https://www.nike.com/t/peak-tall-cuff-futura-beanie-S5gBGl/FB6528-716"
+    tags: ["fashion"]
+    imageUrl: "https://ucarecdn.com/f0bf5124-37be-4829-ab88-d63736e8f0a8/"
+  - name: "Seiko 5 Sports Watch"
+    description: "High quality Japanese movements in a huge variety of styles."
+    url: "https://seikousa.com/collections/seiko5sports"
+    tags: ["fashion"]
+    imageUrl: "https://ucarecdn.com/b5918ccb-ebdd-42f5-a357-7887ba241c20/"
+  - name: "Mark One Pen"
+    description: "Who doesn't like a good pen? This thing is seriously clicky."
+    url: "https://www.studioneat.com/products/markone"
+    tags: ["tools"]
+    imageUrl: "https://ucarecdn.com/06ee14a7-e479-4839-922d-5ee413e518f1/"
+  - name: "Mars Zen Garden"
+    description: "A unique twist on a classic design, this thing is an instant conversation starter."
+    url: "https://www.etsy.com/listing/1593930274/mars-zen-garden"
+    tags: ["nerdy"]
+    imageUrl: "https://ucarecdn.com/ed1e5e3c-0e24-49a2-a4d9-07ccb24d452c/"
+  - name: "Roller Blade Wheels"
+    description: "Replace his office or gaming chair wheels with roller blade wheels. Thank us later."
+    url: "https://amzn.to/3Rvd41v"
+    tags: ["niche", "nerdy"]
+    imageUrl: "https://ucarecdn.com/d1e3905e-5da3-433d-b789-d3f7ab221521/"
+  - name: "Darkplates 2.0"
+    description: "A replacement shell for the PS5 that makes it run cooler, and looks good doing it."
+    url: "https://dbrand.com/shop/special-edition/ps5"
+    tags: ["nerdy"]
+    imageUrl: "https://ucarecdn.com/547f006a-93c8-4132-9ebe-6a3568aaed6d/"
+  - name: "Stagg Electric Kettle"
+    description: "Works great, looks even better. Gooseneck kettle for the picky brewer."
+    url: "https://amzn.to/3R3Z7WK"
+    tags: ["cooking"]
+    imageUrl: "https://ucarecdn.com/253e873d-7082-4ac8-817c-10ce11070b39/"
+  - name: "Groove Life Wallet"
+    description: "Better than Ridge Wallets because of the slide out mechanism."
+    url: "https://www.groovelife.com/products/the-groove-wallet-black"
+    tags: ["accessories"]
+    imageUrl: "https://ucarecdn.com/bb138619-556c-4a2b-a234-697644612faa/"
+  - name: "Massdrop x Sennheiser HD 6XX"
+    description: "The legendary open-back headphones beloved by audiophiles."
+    url: "https://drop.com/buy/massdrop-sennheiser-hd6xx"
+    tags: ["tech"]
+    imageUrl: "https://ucarecdn.com/e1428540-c58c-40d2-8302-2a8e30affab1/"
+  - name: "The Food Lab Cookbook"
+    description: "Scienced backed cooking from an incredible chef. Try one of his recipes and this book will be a no brainer."
+    url: "https://amzn.to/3NgmDPg"
+    tags: ["cooking"]
+    imageUrl: "https://ucarecdn.com/18ec8bc6-a194-4438-9c1f-86ec27f3cfaf/-/preview/1000x1000/"
+

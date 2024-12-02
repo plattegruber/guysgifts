@@ -21,7 +21,7 @@
 							/>
 						</div>
 						<p class="mt-6 text-sm text-gray-500">
-							<a href={'/blog/' + post.slug.current}>
+							<a href={'/blog/' + post.slug }>
 								<span class="absolute inset-0"></span>
 								by {post.author.name}
 							</a>
