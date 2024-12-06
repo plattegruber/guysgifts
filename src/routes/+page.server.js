@@ -19,7 +19,7 @@ import yaml from 'js-yaml';
 
 /** @type {import('./$types').PageServerLoad} */
 export async function load() {
-  const filePath = path.resolve('src/content/products.yaml');
+  const filePath = path.resolve('src/lib/content/products.yaml');
   const fileContents = fs.readFileSync(filePath, 'utf-8');
   /** @type {ProductsData} */
   // @ts-ignore

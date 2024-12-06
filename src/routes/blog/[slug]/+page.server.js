@@ -4,7 +4,7 @@ import grayMatter from 'gray-matter';
 
 /** @type {import('./$types').PageServerLoad} */
 export async function load({ params }) {
-  const filePath = path.resolve('src/content/posts', `${params.slug}.md`);
+  const filePath = path.resolve('src/lib/content/posts', `${params.slug}.md`);
   
   // Check if the file exists
   if (!fs.existsSync(filePath)) {
