@@ -4,7 +4,7 @@ import grayMatter from 'gray-matter';
 
 /** @type {import('./$types').PageServerLoad} */
 export async function load() {
-  const postsDir = path.resolve('src/lib/content/posts'); // Path to the posts directory
+  const postsDir = path.resolve('static/content/posts'); // Path to the posts directory
   const files = fs.readdirSync(postsDir); // Get all filenames in the directory
 
   const posts = files.map((file) => {
