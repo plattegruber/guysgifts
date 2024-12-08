@@ -1,5 +1,3 @@
-import fs from 'fs';
-import path from 'path';
 import yaml from 'js-yaml';
 
 /**
@@ -18,12 +16,16 @@ import yaml from 'js-yaml';
 
 
 /** @type {import('./$types').PageServerLoad} */
-export async function load() {
-  const filePath = path.resolve('static/content/products.yaml');
-  const fileContents = fs.readFileSync(filePath, 'utf-8');
+export async function load({fetch}) {
+  const response = await fetch('/content/products.yaml');
+  if (!response.ok) {
+    throw new Error(`Failed to fetch products.yaml: ${response.statusText}`);
+  }
+  const fileContents = await response.text();
+
   /** @type {ProductsData} */
   // @ts-ignore
-  const { products } = yaml.load(fileContents); // Parse YAML file
+  const { products } = yaml.load(fileContents);
 
   return { products };
 }

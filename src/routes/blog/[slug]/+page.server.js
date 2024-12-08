@@ -1,17 +1,18 @@
-import fs from 'fs';
-import path from 'path';
 import grayMatter from 'gray-matter';
 
 /** @type {import('./$types').PageServerLoad} */
-export async function load({ params }) {
-  const filePath = path.resolve('static/content/posts', `${params.slug}.md`);
-  
-  // Check if the file exists
-  if (!fs.existsSync(filePath)) {
-    throw new Error(`Post not found for slug: ${params.slug}`);
+export async function load({ params, fetch }) {
+  const fileUrl = `/content/posts/${params.slug}.md`; // URL of the Markdown file in the static folder
+
+  // Fetch the Markdown file
+  const response = await fetch(fileUrl);
+  if (!response.ok) {
+    throw new Error(`Post not found for slug: ${params.slug} (${response.statusText})`);
   }
 
-  const fileContents = fs.readFileSync(filePath, 'utf-8');
+  const fileContents = await response.text();
+
+  // Parse the front matter and content using gray-matter
   const { data: frontMatter, content: body } = grayMatter(fileContents);
 
   // Return the parsed post data
@@ -22,3 +23,4 @@ export async function load({ params }) {
     },
   };
 }
+
